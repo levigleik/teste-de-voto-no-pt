@@ -73,5 +73,16 @@ Acesse a aplicação no navegador em [http://localhost:3000](http://localhost:30
 
 ---
 
+## 🌐 Deploy (Vercel e Netlify)
+
+O projeto está configurado com o motor universal **Nitro** (`nitro/vite`), que detecta automaticamente a plataforma de hospedagem:
+
+- **Vercel**: Configurado via [vercel.json](file:///home/levi/projects/pessoal/teste-de-voto-pt/vercel.json) e preset automático de Serverless Functions (`.vercel/output`).
+- **Netlify**: Configurado via [netlify.toml](file:///home/levi/projects/pessoal/teste-de-voto-pt/netlify.toml) e Netlify Functions automáticas.
+
+Basta conectar o repositório na Vercel ou Netlify — a detecção e compilação SSR acontecem automaticamente em zero-config.
+
+---
+
 ## 📄 Licença
 Distribuído sob a licença MIT.
